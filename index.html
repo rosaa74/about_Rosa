@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <script>
+      function getFormvalue(){
+        document.getElementById("display").innerHTML = "Wow! We have similar interests!";
+       }
+      function getLike(){
+          document.getElementById("like").innerHTML = "Thank you for the Like!";
+       }
+      function loadImage() {
+        alert("Image is loaded");
+      }
+    </script>
+    </div>
+
+    <div class="container p-3 my-3">
+      <h1> About Rosa Saldivar</h1>
+    
+      <p> Hi there! My name is Rosa Saldivar. I am 18 years old. In the spring of 2021, I graduated from Bright Star Secondary Charter Academy. Beginning Fall of 2021, I will be attending California State University, Los Angeles, majoring in Computer Science.</p>
+      <img src="https://lh3.googleusercontent.com/proxy/kFBqsi5yvgTp3qy7Nw8wo3bFBZTlFP16dBKeAmVDub1oxQrLrNxHFA_wUWpAL-g83Qy_NNtHTtm7ri587H9tkmt0HmO7Ucw2B5WYsEJ5PteGvJz2rL6ZR-upBDY3ZA6CYVqS4VLld2E55DRGZxI2" onload="loadImage()" width="300" height="75">
+      <p id="like"></p>
+    <form>
+      <input type="button" value="Like Page" onclick="getLike()">
+    </form>
+    </div>
+    <div class= row>
+      <div class = col >
+    <form id="display"> <onchange = "getFormvalue()" > </form>
+      </div>
+    </div>
+    <div class=row>
+      
+      <div class= "col">
+        <h3> Hobbies</h3>
+        <ul>
+          <li>playing softball <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form>
+          </li>
+         <li> learning to code<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form> 
+         </li>
+          <li> spending time with friends<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> playing board games<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="col">
+        <h4> Favorite Artists</h4>
+        <ul>
+          <li> Halsey<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> Post Malone<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> Olivia Roderigo<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> Bad Bunny<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+        </ul>
+      </div>
+
+      <div class= "col">
+        <h5> Favorite Shows </h5>
+        <ul>
+          <li> Parks and Recreations <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> Grace and Frankie <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> Criminal Minds <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
+          <li> Bob's Burgers <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form> </li>
+          <li> American Horror Stories <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li> 
+
+          
+        </ul>
+      </div>
+
+    </div> 
+
+  </body> 
+
+</html>

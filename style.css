@@ -1,0 +1,18 @@
+body{
+  background-color:  #e6e6ff;
+  text-align: center;
+}
+.container{
+  text-align:center;
+  background-color:#b3b3ff;
+  text-decoration-color:black;
+}
+h1{ 
+  text-align:center;
+}
+#h3{
+  text-size-adjust: 14px;
+}
+#h4{
+  text-size-adjust: 14px;
+}
