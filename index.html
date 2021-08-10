@@ -11,29 +11,21 @@
   </head>
 
   <body>
-    <script>
-      function getFormvalue(){
-        document.getElementById("display").innerHTML = "Wow! We have similar interests!";
-       }
-      function getLike(){
-          document.getElementById("like").innerHTML = "Thank you for the Like!";
-       }
-      function loadImage() {
-        alert("Image is loaded");
-      }
-    </script>
+    <script src="script.js"></script>
+
     </div>
 
-    <div class="container p-3 my-3">
+    <div class="container-fluid">
      
       <h1> About Rosa Saldivar</h1>
     
-      <p> Hi there! My name is Rosa Saldivar. I am 18 years old. In the spring of 2021, I graduated from Bright Star Secondary Charter Academy. Beginning Fall of 2021, I will be attending California State University, Los Angeles, majoring in Computer Science.</p>
-      <img src="https://lh3.googleusercontent.com/proxy/kFBqsi5yvgTp3qy7Nw8wo3bFBZTlFP16dBKeAmVDub1oxQrLrNxHFA_wUWpAL-g83Qy_NNtHTtm7ri587H9tkmt0HmO7Ucw2B5WYsEJ5PteGvJz2rL6ZR-upBDY3ZA6CYVqS4VLld2E55DRGZxI2" onload="loadImage()" width="300" height="75">
+      <p id= "intro"> Hi there! My name is Rosa Saldivar. I am 18 years old. In the spring of 2021, I graduated from Bright Star Secondary Charter Academy. Beginning Fall of 2021, I will be attending California State University, Los Angeles, majoring in Computer Science.</p>
+      <img src = "https://i.postimg.cc/RCnD6Cv0/Screen-Shot-2021-08-09-at-9-53-34-AM.png" onLoad="loadImage()" width="300" height="150">
+
       <p id="like"></p>
-    <form>
+      <form>
       <input type="button" value="Like Page" onclick="getLike()">
-    </form>
+      </form>
     </div>
     <div class= row>
       <div class = col >
@@ -43,7 +35,7 @@
     <div class=row>
       
       <div class= "col">
-        <h3> Hobbies</h3>
+        <h2> Hobbies</h2>
         <ul>
           <li>playing softball <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form>
           </li>
@@ -57,7 +49,7 @@
 
 
       <div class="col">
-        <h4> Favorite Artists</h4>
+        <h2> Favorite Artists</h2>
         <ul>
           <li> Halsey<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
           <li> Post Malone<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
@@ -67,7 +59,7 @@
       </div>
 
       <div class= "col">
-        <h5> Favorite Shows </h5>
+        <h2> Favorite Shows </h2>
         <ul>
           <li> Parks and Recreations <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
           <li> Grace and Frankie <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
