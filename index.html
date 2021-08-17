@@ -7,72 +7,71 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
 
   <body>
     <script src="script.js"></script>
 
-    </div>
+    <nav class="navbar">
+      <div> 
+        <a href="#">
+          <img class="logo" src=" https://i.postimg.cc/yxC9jfC1/imageedit-5-3478676673.png"> 
+        </div>
+     <ul class="nav-list">
+       <li class= "list-item"><a href= "index.html"> Home</a></li>
+       <li class= "list-item"><a href="interests.html"> Interests</a></li>
+       <li class= "list-item"><a href="projects.html">Projects</a></li>
+     </ul>
+    </nav>
+   
+</div>
 
     <div class="container-fluid">
-     
-      <h1> About Rosa Saldivar</h1>
+     <div  class= "cont">
+        <img src = "https://i.postimg.cc/kGCvBRLj/IMG-0515-Original.jpg" onLoad="loadImage()" width="400px" height="800px" id="left">
+      </div>
+      <div class="cont-w">
+        <h1 class= "cont-t"> About Rosa Saldivar</h1>
     
-      <p id= "intro"> Hi there! My name is Rosa Saldivar. I am 18 years old. In the spring of 2021, I graduated from Bright Star Secondary Charter Academy. Beginning Fall of 2021, I will be attending California State University, Los Angeles, majoring in Computer Science.</p>
-      <img src = "https://i.postimg.cc/RCnD6Cv0/Screen-Shot-2021-08-09-at-9-53-34-AM.png" onLoad="loadImage()" width="300" height="150">
-
-      <p id="like"></p>
-      <form>
-      <input type="button" value="Like Page" onclick="getLike()">
-      </form>
-    </div>
-    <div class= row>
-      <div class = col >
-    <form id="display"> <onchange = "getFormvalue()" > </form>
-      </div>
-    </div>
-    <div class=row>
+        <p id= "intro"> Hi there! My name is Rosa Saldivar. I am 18 years old. In the spring of 2021, I graduated from Bright Star Secondary Charter Academy. Beginning Fall of 2021, I will be attending California State University, Los Angeles, majoring in Computer Science.</p>
       
-      <div class= "col">
-        <h2> Hobbies</h2>
-        <ul>
-          <li>playing softball <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form>
-          </li>
-         <li> learning to code<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form> 
-         </li>
-          <li> spending time with friends<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> playing board games<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form>
-          </li>
-        </ul>
+
+        <p id="like" class></p>
+        <form>
+        <input type="button" value="Like Page" onclick="getLike()">
+        </form>
       </div>
+    </div>
 
+    <div class="container-fluid"> <h2> Background</h2>
+    </div>
+    <p id="aboutme"> I was born and raised in South Central, California until I was 8. I then moved to Gardena, California, where I currently reside. I attended Baldwin Hills Elementary school, Stella Middle Charter Academy, Bright Stat Secondary Charter Academy, and will now attend California State University, Los Angeles. I love spending time with family and friends, playing with dogs, and coding. My greatest accomplishments include receiving gold honors in high school, becoming a CIF softball Champ freshman year, winning a scholarship for a brand new Macbook Air, and finally building this website. I hope you enjoy my personal website!</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id= "footer">
+      <div class= row>
+        <div class= col>
+        <h3 id= "contact"> Contact Me: </h3>
+        </div>
+        <div class= col>
+          <p class="format"> Instagram </p>
+          <a href="https://www.instagram.com/rossaa_74/" target="_blank" class= "social"> @Rossaa_74 </a>
+        </div>
+        <div class= col>
+          <p class= "format"> Email </p>
+          <a href = "mailto: Rosasaldivar74.rs@gmail.com" class= "social">Rosasaldivar74.rs@gmail.com</a>
+        </div>
+        <div class= col>
+          <p class="format"> Phone </p>
+          <a href="tel:3236093133" class= "social">323-609-3133</a>
 
-      <div class="col">
-        <h2> Favorite Artists</h2>
-        <ul>
-          <li> Halsey<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> Post Malone<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> Olivia Roderigo<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> Bad Bunny<form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-        </ul>
+        </div>
       </div>
-
-      <div class= "col">
-        <h2> Favorite Shows </h2>
-        <ul>
-          <li> Parks and Recreations <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> Grace and Frankie <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> Criminal Minds <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li>
-          <li> Bob's Burgers <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form> </li>
-          <li> American Horror Stories <form id="display"> <input type="checkbox" onchange= "getFormvalue()" > </form></li> 
-
-          
-        </ul>
-      </div>
-
-    </div> 
-
+    </footer>
+  
   </body> 
 
 </html>
