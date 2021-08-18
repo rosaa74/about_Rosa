@@ -1,18 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Sacramento&display=swap');
+
 body{
-  background-color:  #e6e6ff;
+  background-color:  #987554;
   text-align: center;
 }
-.container{
+.container-fluid{
   text-align:center;
-  background-color:#b3b3ff;
+  background-color:#664229;
   text-decoration-color:black;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size-adjust:;
 }
 h1{ 
   text-align:center;
+  font-family: Sacramento;
 }
-#h3{
-  text-size-adjust: 14px;
+h2{
+  font-size: 25px;
+  font-style: bold;
+  font-family: Sacramento;
 }
-#h4{
-  text-size-adjust: 14px;
+#intro{
+  font-family: Josefin Slab;
+}
+li{
+  font-family: Josefin Slab;
+}
+#display{
+  font-family: Josefin Slab;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+input{
+  font-family: Josefin Slab;
 }

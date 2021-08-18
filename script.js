@@ -6,4 +6,8 @@ function getLike(){
 }
 function loadImage() {
  alert("Image is loaded");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/gh-pages
